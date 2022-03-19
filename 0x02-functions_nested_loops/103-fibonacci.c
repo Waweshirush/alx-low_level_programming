@@ -3,7 +3,6 @@
 /**
  * main - Prints the add of the even-valued
  * fibonacci numbers.
- *
  * Returns: Always 0.
  */
 int main(void)
