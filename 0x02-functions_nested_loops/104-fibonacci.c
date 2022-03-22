@@ -3,7 +3,7 @@
 /**
  * main - Prints the first 98 Fibonacci numbers
  *
- * return: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -12,8 +12,8 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	boolean = boolean2 = 1;
-	printd("%ld, %ld", n1, n2);
+	boolean =  boolean2 = 1;
+	printf("%ld, %ld", n1, n2);
 	for (c = 0; c < 96; c++)
 	{
 		if (boolean)
@@ -44,10 +44,7 @@ int main(void)
 		}
 		if (((n1 + n2) < 0) && boolean == 1)
 			boolean = 0;
-		{
-			printf("\n");
-			return (0);
-		}
 	}
-	
-
+	printf("\n");
+	return (0);
+}
