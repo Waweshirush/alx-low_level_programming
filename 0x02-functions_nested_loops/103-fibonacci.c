@@ -3,7 +3,8 @@
 /**
  * main - Prints the add of the even-valued
  * fibonacci numbers.
- * Returns: Always 0.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -18,7 +19,7 @@ int main(void)
 		n1 = n2;
 		n2 = fn;
 		if ((n1 % 2) == 0)
-		{ 
+		{
 			afn += n1;
 		}
 	}
